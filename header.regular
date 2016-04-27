@@ -1,0 +1,97 @@
+<!doctype html>
+
+  <html class="no-js"  <?php language_attributes(); ?>>
+
+	<head>
+		<meta charset="utf-8">
+		
+		<!-- Force IE to use the latest rendering engine available -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta class="foundation-mq">
+		
+		<!-- If Site Icon isn't set in customizer -->
+		<?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>
+			<!-- Icons & Favicons -->
+			<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+			<link href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-icon-touch.png" rel="apple-touch-icon" />
+			<!--[if IE]>
+				<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+			<![endif]-->
+			<meta name="msapplication-TileColor" content="#f01d4f">
+			<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/images/win8-tile-icon.png">
+	    	<meta name="theme-color" content="#121212">
+	    <?php } ?>
+
+		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+
+		<?php wp_head(); ?>
+
+		<!-- Drop Google Analytics here -->
+		<!-- end analytics -->
+<style>
+ul.menu li:hover { background:green;}
+.lit a { height:65px;line-height:65px;display:inline-block;padding:0 1rem;}
+.lit a:hover { background:pink;}
+#topbar {height:65px;}
+
+div.mega-1 {display:none; }
+a.link-1:hover + div.mega-1 { display:block;}
+div.mega-1 { position:absolute;top:65px;width:100%;background-color:pink;}
+
+
+@media screen and ( max-width: 800px){
+#topbar { height:40px;}
+
+
+}
+</style>
+
+
+	</head>
+	
+	<!-- Uncomment this line if using the Off-Canvas Menu --> 
+		
+	<body <?php body_class(); ?>>
+
+		<div class="off-canvas-wrapper">
+			
+			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+				
+				<!-- OFF CANVAS CONTENT: your off canvas content will start here -->
+
+				<div class="off-canvas position-right" id="off-canvas" data-off-canvas data-position="right">
+					<p>Your stuff goes here...</p>
+				</div>
+
+				<!-- OFF CANVAS CONTENT: and ends here -->
+
+				<div class="off-canvas-content" data-off-canvas-content>
+
+<div data-sticky-container style="background:blue;">
+	<div class="title-bar" id="topbar" data-sticky data-options="marginTop:0;" style="width:100%;border:0;background:blue;" data-top-anchor="1" data-btm-anchor="content:bottom">
+<div class="row align-middle">	
+  <div class="columns small-6 medium-4">
+    <div><a><span><i class="fi-heart"></i></span><span>HarajukuDay</span></a></div>
+  </div><!-- top-bar-left-->
+
+  <div class="columns small-4 large-8 show-for-medium">
+<div class="lit">
+	<a href="#" class="link-1"><span><i class="fi-home"></i></span><span>hello</span></a>
+        <div class="mega-1">mega 1</div>
+	<a href="#"><span><i class="fi-about"></i></span><span>about</span></a>
+</div>
+<div class="mega-1">this is the mega menu</div>
+  </div><!-- top-bar-right show-medium-->
+<div
+  <div class="columns float-right show-for-small-only">
+   <ul class="menu">
+    <li style="float:right;"><a data-toggle="off-canvas"><span class="burger-menu"></span></a></li>
+   </ul>
+ </div><!-- top-bar-right show-for-small -->
+</div><!-- row -->
+</div><!-- title-bar -->
+</div><!-- data-sticky-container-->
+

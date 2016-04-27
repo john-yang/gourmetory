@@ -5,6 +5,6 @@
 		</ul>
 	</div>
 	<div class="top-bar-right">
-		<?php joints_top_nav(); ?>
+		<a href="#" class="burger-icon"></a>
 	</div>
 </div>

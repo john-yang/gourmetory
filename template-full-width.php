@@ -8,9 +8,9 @@ Template Name: Full Width (No Sidebar)
 			
 	<div id="content">
 	
-		<div id="inner-content" class="row">
+		<div id="inner-content">
 	
-		    <main id="main" class="large-12 medium-12 columns" role="main">
+		    <main id="main" role="main">
 				
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

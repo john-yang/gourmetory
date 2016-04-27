@@ -40,3 +40,7 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 
 // Customize the WordPress admin
 // require_once(get_template_directory().'/assets/functions/admin.php'); 
+
+remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );
+

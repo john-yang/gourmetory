@@ -22,34 +22,46 @@
 			<![endif]-->
 			<meta name="msapplication-TileColor" content="#f01d4f">
 			<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/images/win8-tile-icon.png">
-	    	<meta name="theme-color" content="#121212">
+	    		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+			<meta name="theme-color" content="#121212">
 	    <?php } ?>
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
+	<style>
+		#top-bar-menu { display:none;}
+		.gridsy { margin-top:.5rem; }
 
-		<!-- Drop Google Analytics here -->
-		<!-- end analytics -->
+.off-canvas-content { 
 
-	</head>
-	
-	<!-- Uncomment this line if using the Off-Canvas Menu --> 
+
+
+background: #360033; /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #360033 , #0b8793); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #360033 , #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
+}
+
+
+
+		.ex-off-canvas-content{
+			background: #f0b195; /* Old browsers */
+			background: -moz-linear-gradient(top,  #f0b195 0%, #f67280 30%, #f67280 30%, #c06c84 54%, #6c5b7b 84%, #6c5b7b 84%, #355c7d 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #f0b195 0%,#f67280 30%,#f67280 30%,#c06c84 54%,#6c5b7b 84%,#6c5b7b 84%,#355c7d 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #f0b195 0%,#f67280 30%,#f67280 30%,#c06c84 54%,#6c5b7b 84%,#6c5b7b 84%,#355c7d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b195', endColorstr='#355c7d',GradientType=0 ); /* IE6-9 */
+			}		
+		body.home #content #inner-content { padding:0;}
+			@media screen and ( max-width: 800px){
+		}
 		
-	<body <?php body_class(); ?>>
+	</style>
 
-		<div class="off-canvas-wrapper">
-			
-			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-				
-				<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
-				
-				<div class="off-canvas-content" data-off-canvas-content>
-					
-					<header class="header" role="banner">
-							
-						 <!-- This navs will be applied to the topbar, above all content 
-							  To see additional nav styles, visit the /parts directory -->
-						 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-		 	
-					</header> <!-- end .header -->
+
+	
+	</head>
+		
+	<body class="akiba-gradient" <?php body_class(); ?>>
+	 <?php get_template_part( 'parts/nav', 'default' ); ?>
