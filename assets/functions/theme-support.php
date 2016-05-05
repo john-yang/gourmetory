@@ -6,8 +6,7 @@ function joints_theme_support() {
 	// Add WP Thumbnail Support
 	add_theme_support( 'post-thumbnails' );
 	
-	// Default thumbnail size
-	set_post_thumbnail_size(125, 125, true);
+	add_image_size( 'square', 400, 400, array( 'center', 'top' ) ); // Hard crop center top
 
 	// Add RSS Support
 	add_theme_support( 'automatic-feed-links' );

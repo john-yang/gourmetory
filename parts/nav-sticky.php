@@ -16,9 +16,9 @@
 
 				<div class="off-canvas-content" data-off-canvas-content><!-- closes at the footer -->
 
-					<nav data-sticky-container>
-						<div class="title-bar" id="topbar" data-sticky data-options="marginTop:0;">
-							<div class="row align-middle">	
+					<div data-sticky-container>
+						<div data-sticky data-options="marginTop:0;">
+							<div id="topbar" class="title-bar top-bar row align-middle expanded">	
 								<div class="columns small-6 medium-4 large-3">
 									<div><a><span><i class="fi-heart"></i></span><span>AkibaDay</span></a></div>
 								</div><!-- top-bar-left-->
@@ -26,11 +26,10 @@
 								<div class="columns small-4 large-8 show-for-medium text-right">
 									<a class="lit no-icon" href="#"><span>Home</span></a>
 									<a class="lit no-icon" href="#"><span>About</span></a>
-									<a class="lit no-icon" href="#"><span>Contact</span></a>
-									<a class="lit" href="#"><span><i class="fi-social-facebook"></i></span></a>
-									<a class="lit" href="#"><span><i class="fi-social-tumblr"></i></span></a>
-									<a class="lit" href="#"><span><i class="fi-social-twitter"></i></span></a>
-									<a class="lit" href="#"><span><i class="fi-social-instagram"></i></span></a>
+									<a class="lit" href="#"><span><i class="fa fa-facebook"></i></span></a>
+									<a class="lit" href="#"><span><i class="fa fa-tumblr"></i></span></a>
+									<a class="lit" href="#"><span><i class="fa fa-twitter"></i></span></a>
+									<a class="lit" href="#"><span><i class="fa fa-instagram"></i></span></a>
 								</div><!-- top-bar-right show-medium-->
 
 								<div class="columns float-right show-for-small-only">
@@ -40,5 +39,5 @@
 								</div><!-- top-bar-right show-for-small -->
 							</div><!-- row -->
 						</div><!-- title-bar -->
-					</nav><!-- data-sticky-container-->
+					</div><!-- data-sticky-container-->
 

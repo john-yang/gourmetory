@@ -29,39 +29,22 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
-<style>
-.featured-image img { border-radius:.25rem;}
-.entry-content img { border-radius:.5rem;}	
-h3.title { font-size:1.2rem;letter-spacing:-0.0925rem;}
-h1.entry-title { letter-spacing:-0.125rem;}
-p.byline { font-size:.75rem;}
-#content #inner-content { padding:2rem 0;}
-.title-bar { width:100%;}
-.title-bar .row.expanded { border-bottom:1px solid #aaa;}
+	<style>
+		#gradient-header { 
+			background: #f0b195; /* Old browsers */
+			background: -moz-linear-gradient(top,  #f0b195 0%, #f67280 30%, #f67280 30%, #c06c84 54%, #6c5b7b 84%, #6c5b7b 84%, #355c7d 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #f0b195 0%,#f67280 30%,#f67280 30%,#c06c84 54%,#6c5b7b 84%,#6c5b7b 84%,#355c7d 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #f0b195 0%,#f67280 30%,#f67280 30%,#c06c84 54%,#6c5b7b 84%,#6c5b7b 84%,#355c7d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b195', endColorstr='#355c7d',GradientType=0 ); /* IE6-9 */
+			}		
+		body.home #content #inner-content { padding:0;}
+			@media screen and ( max-width: 800px){
+		}
+		
+	</style>
 
-.header {
-  padding: 10rem 0;
-  background: url("http://placehold.it/2000x500&text=this is a header") center center no-repeat;
-  background-size: cover; }
-
-[data-sticky] {
-  width: 100%; }
-
-.title-bar {
-  padding: 2rem;
-  transition: padding .25s ease; }
-
-.is-stuck .title-bar {
-  padding: 1rem;
-  transition: padding .25s ease; }
-
-
-
-
-</style>
 
 	
 	</head>
 		
 	<body <?php body_class(); ?>>
-	 <?php get_template_part( 'parts/nav', 'sticky' ); ?>
