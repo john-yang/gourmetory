@@ -19,17 +19,18 @@
 					<div data-sticky-container>
 						<div data-sticky data-options="marginTop:0;">
 							<div id="topbar" class="title-bar top-bar row align-middle expanded">	
-								<div class="columns small-6 medium-4 large-3">
-									<div><a><span><i class="fi-heart"></i></span><span>AkibaDay</span></a></div>
-								</div><!-- top-bar-left-->
+								<div id="top-bar-left" class="columns small-6 large-3">
+									<div><a id="logo" href="<?php echo home_url(); ?>"><span><img src="http://harajukuday.app/harajuku-images/logo.png"></span></a></div>
+								</div><!-- top-bar-left -->
 
-								<div class="columns small-4 large-8 show-for-medium text-right">
-									<a class="lit no-icon" href="#"><span>Home</span></a>
-									<a class="lit no-icon" href="#"><span>About</span></a>
-									<a class="lit" href="#"><span><i class="fa fa-facebook"></i></span></a>
-									<a class="lit" href="#"><span><i class="fa fa-tumblr"></i></span></a>
-									<a class="lit" href="#"><span><i class="fa fa-twitter"></i></span></a>
-									<a class="lit" href="#"><span><i class="fa fa-instagram"></i></span></a>
+								<div id="top-bar-right" class="columns small-6 large-9 show-for-medium text-right">
+									<a href="<?php echo home_url(); ?>"><span>Home</span></a>
+									<a href="<?php echo home_url(); ?>/about/"><span>About</span></a>
+									<a href="<?php echo home_url(); ?>/contact/"><span>Contact</span></a>
+									<a class="social" href="#"><span><i class="fa fa-facebook"></i></span></a>
+									<a class="social" href="#"><span><i class="fa fa-tumblr"></i></span></a>
+									<a class="social" href="#"><span><i class="fa fa-twitter"></i></span></a>
+									<a class="social" href="#"><span><i class="fa fa-instagram"></i></span></a>
 								</div><!-- top-bar-right show-medium-->
 
 								<div class="columns float-right show-for-small-only">

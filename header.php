@@ -29,37 +29,6 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
-<style>
-.featured-image img { border-radius:.25rem;}
-.entry-content img { border-radius:.5rem;}	
-h3.title { font-size:1.2rem;letter-spacing:-0.0925rem;}
-h1.entry-title { letter-spacing:-0.125rem;}
-p.byline { font-size:.75rem;}
-#content #inner-content { padding:2rem 0;}
-.title-bar { width:100%;}
-.title-bar .row.expanded { border-bottom:1px solid #aaa;}
-
-.header {
-  padding: 10rem 0;
-  background: url("http://placehold.it/2000x500&text=this is a header") center center no-repeat;
-  background-size: cover; }
-
-[data-sticky] {
-  width: 100%; }
-
-.title-bar {
-  padding: 2rem;
-  transition: padding .25s ease; }
-
-.is-stuck .title-bar {
-  padding: 1rem;
-  transition: padding .25s ease; }
-
-
-
-
-</style>
-
 	
 	</head>
 		

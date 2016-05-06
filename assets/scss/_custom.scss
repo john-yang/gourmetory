@@ -1,3 +1,56 @@
+
+
+
+
+
+
+
+/* NAVIGATION STICKY */
+#top-bar-right {
+
+a { margin-right:.5rem;padding-bottom:1rem;}
+a:hover {border-bottom:5px solid #333; transition:all .1s linear;}
+}
+
+
+/*  HOME */
+
+#home-grid { 
+
+h2 { font-size:1.2rem; letter-spacing:-0.0625rem;font-weight:300;}
+
+
+}
+
+
+
+/* SINGLE POST */
+
+blockquote { font-size:1.5rem; margin:2rem 0;padding:2rem;}
+
+
+/*UNSORTED*/
+
+.featured-image img { border-radius:.25rem;}
+.entry-content img { border-radius:.5rem;}
+h3.title { font-size:1.2rem;letter-spacing:-0.0925rem;}
+h1.entry-title { letter-spacing:-0.125rem;}
+p.byline { font-size:.75rem;}
+#content #inner-content { padding:2rem 0;}
+.title-bar { width:100%;}
+.title-bar .row.expanded { border-bottom:1px solid #aaa;}
+
+
+.single .entry-content{
+ 	p { margin-top:1rem;font-family:Georgia; font-size:1.2rem; @include breakpoint(medium){ font-size:1.3rem;} }
+ 	h3 { margin-top:1rem;font-size:1.75rem; @include breakpoint(medium){font-size:2.5rem;}}
+ 	img { margin-top:1rem;}}
+
+.single h1.entry-title.single-title  {font-weight:900; font-size:2rem; letter-spacing:-0.0625rem; 
+					@include breakpoint(medium) 
+						{ font-size:3rem;letter-spacing:-0.0925rem;}
+					}
+
 .mixxx { color:red; @include breakpoint (medium) { color:pink;}}
 .burger-menu{ @include hamburger(#ccc, lightblue,  20px, 16px, 1px, 4);}
 .top-bar-right{ width:40%;}
@@ -20,9 +73,40 @@ body.home #content #inner-content { padding:0;}
 
 
 
+/*  Shrinking Sticky Nav CSS */
+.header {
+  padding: 10rem 0;
+  background: url("http://placehold.it/2000x500&text=this is a header") center center no-repeat;
+  background-size: cover; }
+
+[data-sticky] {
+  width: 100%; }
+
+.title-bar {
+padding:.5rem;
+transition:padding .25s ease;
+
+a#logo img { width:100px; @include breakpoint (medium) { width:200px;}}
+
+@include breakpoint(medium){
+  padding: 2rem;
+  transition: padding .25s ease; 
+}
+
+}
+
+.is-stuck .title-bar {
+  padding: 1rem;
+  transition: padding .25s ease; 
+
+a#logo img { width:170px;}
+
+
+}
+
+/* IMAGE HOVER EFFECTS  */
 
 $global-radius: 4px;
-
 
 .image-wrapper {
   width: 100%;
@@ -50,7 +134,7 @@ $global-radius: 4px;
   p {
     letter-spacing: 0.15em;
     color: #f4f4f4;
-    font-size: 28px;
+    font-size: 1rem;
     opacity: 0;
     transition: all 0.2s linear;
   }
@@ -65,25 +149,23 @@ $global-radius: 4px;
     transition: all 0.4s ease-in-out;
   }
   
-  h2 {
+  h3 {
     color: #f2f2f2;
-    font-size: 1.8rem;
-    margin-top: 40%;
+    font-size: 1.1rem;
+    margin-top: 30%;
     opacity: 0;
     transition: all 0.2s ease-in-out;
-    background: rgba(0,0,0,0.7);
+    background: rgba(1,1,1,0.7);
   }
   
   .button {
+    width:80%;
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px; 
-    background: #FFF;
+    background: white;
     color: #222;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000;
     position: relative;
-    border: 1px solid #999;
     opacity: 0;
     transition: all 0.2s ease-in-out;
     
@@ -100,7 +182,7 @@ $global-radius: 4px;
     opacity: 1;
   }
   
-  &:hover h2, p, .button {
+  &:hover h3, p, .button {
     opacity: 1;
   }
   
@@ -113,13 +195,7 @@ $global-radius: 4px;
   }
 } 
 
-
-
-
-
-
-
-
+/* Image Transition #2 : Overlay-Slide-In-Left */
 
 .overlay-slide-in-left {
   

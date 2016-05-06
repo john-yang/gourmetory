@@ -19,7 +19,6 @@ Mixins & Constants.
 /*********************
 TOOLS
 *********************/
-@import url(../../vendor/icons/foundation-icons.css);
 .image-replacement {
   text-indent: 100%;
   white-space: nowrap;
@@ -599,13 +598,6 @@ CSS3 GRADIENTS.
 .long-delay {
   -webkit-animation-delay: 700ms !important;
   animation-delay: 700ms !important; }
-
-@font-face {
-  font-family: "foundation-icons";
-  src: url("../../vendor/icons/foundation-icons.eot");
-  src: url("../../vendor/icons/foundation-icons.eot?#iefix") format("embedded-opentype"), url("../../vendor/icons/foundation-icons.woff") format("woff"), url("../../vendor/icons/foundation-icons.ttf") format("truetype"), url("../../vendor/icons/foundation-icons.svg#fontcustom") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -5486,6 +5478,80 @@ to display none.
   nav {
     display: none; } }
 
+/* NAVIGATION STICKY */
+#top-bar-right a {
+  margin-right: .5rem;
+  padding-bottom: 1rem; }
+
+#top-bar-right a:hover {
+  border-bottom: 5px solid #333;
+  transition: all .1s linear; }
+
+/*  HOME */
+#home-grid h2 {
+  font-size: 1.2rem;
+  letter-spacing: -0.0625rem;
+  font-weight: 300; }
+
+/* SINGLE POST */
+blockquote {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  padding: 2rem; }
+
+/*UNSORTED*/
+.featured-image img {
+  border-radius: .25rem; }
+
+.entry-content img {
+  border-radius: .5rem; }
+
+h3.title {
+  font-size: 1.2rem;
+  letter-spacing: -0.0925rem; }
+
+h1.entry-title {
+  letter-spacing: -0.125rem; }
+
+p.byline {
+  font-size: .75rem; }
+
+#content #inner-content {
+  padding: 2rem 0; }
+
+.title-bar {
+  width: 100%; }
+
+.title-bar .row.expanded {
+  border-bottom: 1px solid #aaa; }
+
+.single .entry-content p {
+  margin-top: 1rem;
+  font-family: Georgia;
+  font-size: 1.2rem; }
+  @media screen and (min-width: 40em) {
+    .single .entry-content p {
+      font-size: 1.3rem; } }
+
+.single .entry-content h3 {
+  margin-top: 1rem;
+  font-size: 1.75rem; }
+  @media screen and (min-width: 40em) {
+    .single .entry-content h3 {
+      font-size: 2.5rem; } }
+
+.single .entry-content img {
+  margin-top: 1rem; }
+
+.single h1.entry-title.single-title {
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: -0.0625rem; }
+  @media screen and (min-width: 40em) {
+    .single h1.entry-title.single-title {
+      font-size: 3rem;
+      letter-spacing: -0.0925rem; } }
+
 .mixxx {
   color: red; }
   @media screen and (min-width: 40em) {
@@ -5539,6 +5605,35 @@ to display none.
 body.home #content #inner-content {
   padding: 0; }
 
+/*  Shrinking Sticky Nav CSS */
+.header {
+  padding: 10rem 0;
+  background: url("http://placehold.it/2000x500&text=this is a header") center center no-repeat;
+  background-size: cover; }
+
+[data-sticky] {
+  width: 100%; }
+
+.title-bar {
+  padding: .5rem;
+  transition: padding .25s ease; }
+  .title-bar a#logo img {
+    width: 100px; }
+    @media screen and (min-width: 40em) {
+      .title-bar a#logo img {
+        width: 200px; } }
+  @media screen and (min-width: 40em) {
+    .title-bar {
+      padding: 2rem;
+      transition: padding .25s ease; } }
+
+.is-stuck .title-bar {
+  padding: 1rem;
+  transition: padding .25s ease; }
+  .is-stuck .title-bar a#logo img {
+    width: 170px; }
+
+/* IMAGE HOVER EFFECTS  */
 .image-wrapper {
   width: 100%;
   height: 100%;
@@ -5559,7 +5654,7 @@ body.home #content #inner-content {
 .overlay-fade-in p {
   letter-spacing: 0.15em;
   color: #f4f4f4;
-  font-size: 28px;
+  font-size: 1rem;
   opacity: 0;
   transition: all 0.2s linear; }
 
@@ -5571,24 +5666,22 @@ body.home #content #inner-content {
   background-color: rgba(0, 0, 0, 0.4);
   transition: all 0.4s ease-in-out; }
 
-.overlay-fade-in h2 {
+.overlay-fade-in h3 {
   color: #f2f2f2;
-  font-size: 1.8rem;
-  margin-top: 40%;
+  font-size: 1.1rem;
+  margin-top: 30%;
   opacity: 0;
   transition: all 0.2s ease-in-out;
-  background: rgba(0, 0, 0, 0.7); }
+  background: rgba(1, 1, 1, 0.7); }
 
 .overlay-fade-in .button {
+  width: 80%;
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
-  background: #FFF;
+  background: white;
   color: #222;
-  text-transform: uppercase;
-  box-shadow: 0 0 1px #000;
   position: relative;
-  border: 1px solid #999;
   opacity: 0;
   transition: all 0.2s ease-in-out; }
   .overlay-fade-in .button:hover {
@@ -5601,7 +5694,7 @@ body.home #content #inner-content {
 .overlay-fade-in:hover .image-overlay-content {
   opacity: 1; }
 
-.overlay-fade-in:hover h2, .overlay-fade-in p, .overlay-fade-in .button {
+.overlay-fade-in:hover h3, .overlay-fade-in p, .overlay-fade-in .button {
   opacity: 1; }
 
 .overlay-fade-in:hover p {
@@ -5610,6 +5703,7 @@ body.home #content #inner-content {
 .overlay-fade-in:hover .button {
   transition-delay: 0.2s; }
 
+/* Image Transition #2 : Overlay-Slide-In-Left */
 .overlay-slide-in-left img {
   transition: all 0.3s ease-in-out; }
 
