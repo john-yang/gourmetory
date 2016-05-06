@@ -5602,9 +5602,6 @@ p.byline {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b195', endColorstr='#355c7d',GradientType=0 );
   /* IE6-9 */ }
 
-body.home #content #inner-content {
-  padding: 0; }
-
 /*  Shrinking Sticky Nav CSS */
 .header {
   padding: 10rem 0;
