@@ -1,0 +1,81 @@
+/* ROWS */
+.row.cover { min-height:36rem;
+
+		@include breakpoint(medium) { min-height:40rem;}
+		@include breakpoint(medium) { min-height:46rem;}
+	}
+
+.row.team { text-align:center;
+		.box { width:300px;display:inline-block;
+			@include breakpoint(medium){width:150px;}
+			@include breakpoint(large){width:240px;}
+		     }
+	}
+
+.row.half-cover { min-height:23rem;}
+
+
+.row-services { color:white;
+
+	.box { border:1px solid white; padding:2rem;}
+	p { text-shadow:1px 1px 1px #666;}
+	h2 { text-shadow:1px 1px 1px #222;}
+	h1 { text-shadow: 1px 1px 1px #222;}
+
+}
+.row-seven-reasons { 
+
+}
+
+.row-facts { color:white;background-color:#034761;
+
+	      .box { background-color:#01ADEF;margin: 0 0 2rem 0; padding:2rem;margin:1rem;
+		      	@include breakpoint(medium) { margin:0 0 2rem 0;}
+	      		}
+}
+
+.row-icons .icon-box-wrap {  padding:2rem;
+	
+			i.fa { color:#034761;}
+		}
+
+
+.row-featured-clients {
+
+	img.thumbnail { border:none;box-shadow:none;}
+
+}
+
+.row-newsletter-pop-up {
+
+
+	height:18rem;
+	background:#01ADEF;
+
+	@include breakpoint(medium){ height:8rem;}
+}
+
+.row-video-pop-up { 
+
+	h1 { font-size:2rem;margin-top:1rem;
+		@include breakpoint(medium) { font-size:3rem;margin-top:5rem;}
+		@include breakpoint(large) { font-size:4rem;margin-top:15rem;}
+	}
+	p { font-size:1rem;
+		@include breakpoint(medium up ) { font-size:2rem;}
+	}
+}
+
+.row-newsletter-default{
+
+	ul li { font-size:1.5rem;}
+	i{ color:red;margin-right:1rem;}
+
+}
+
+.row-quatro { 
+
+	a { 
+		h2 { color:white;text-shadow:1px 1px 1px #111;}
+	}
+}

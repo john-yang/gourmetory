@@ -1,0 +1,64 @@
+div.stuck-wrap { min-height:1px;}
+
+/* NAVIGATION STICKY */
+#top-bar-right {
+
+a { margin-right:.5rem;padding-bottom:1rem;}
+a:hover {border-bottom:5px solid #333; transition:all .1s linear;}
+}
+/* TOP BAR / TITLE BAR */
+#top-bar-menu { border-bottom:none;}
+.top-bar { border-bottom:#333;}
+.title-bar { background:black;color:white;}
+.title-bar { width:100%;}
+.title-bar .row.expanded { border-bottom:1px solid #aaa;}
+.top-bar-right{ width:40%;}
+.top-bar-left{width:60%;}
+.top-bar { border-bottom:1px solid #eee;}
+
+/* STUCK BAR */
+.stuck-bar-right a {margin-right:1rem; }
+
+/* STUCK */
+[data-sticky] { width: 100%; }
+div.sticky-container { min-height:1rem;}
+.stuck-bar { width:100%;background:white;}
+.stuck-bar-wrap { overflow:hidden;position:relative;border-bottom:1px solid #aaa;border-top:1px solid #aaa;}
+.stuck-bar-inner { border-bottom:1px solid #aaa;}
+.stuck-bar .stuck-bar-left { position:relative;left:1rem;transition:all .5s ease;}
+.stuck-bar .stuck-bar-right { position:relative;right:1rem;}
+
+/* STUCK ANCHORS */
+.stuck-bar-left a, .stuck-bar-right { margin-right:1rem;height:3rem;display:flex;float:left;text-align:center;align-items:center;}
+.stuck-bar-inner a#mini-logo img { height:2rem;}
+.stuck-bar-inner a#mini-logo { position:absolute;top:-1000px;}
+
+/* IS STUCK */
+.is-stuck.stuck-bar a#mini-logo { top:.5rem; left:20px;transition:all .5s ease;}
+.is-stuck.stuck-bar .stuck-bar-inner { height:3rem; background:black;}
+.is-stuck.stuck-bar .stuck-bar-left { padding-bottom:0;transition:all .5s ease;position:absolute;left:16rem;transition:all .5s ease;
+a{color:white; }}
+
+/* OFF CANVAS MENU */
+.off-canvas { background:#333 !important;}
+#off-canvas-stuff { 
+	a { display:block;width:100%;padding:1rem 0;border-bottom:1px solid #aaa; color:white;}
+ 	a:hover { background:#ccc;color:#111;}
+	li {display: inline-block;width:100%;}
+	ul { margin-left:0;width:100%;display:block;height:100%;min-height:100rem;}
+ 	#side-logo { width:200px;}
+ 	li:first-child  {padding:2rem 0; }
+ 	li:nth-child(2) { border-top:1px solid #aaa;}
+}
+
+.clear-bar-wrap {margin-top:-100px; }
+.clear-bar  a#logo img { position:relative;top:120px;}
+.clear-bar-right .burger-menu { margin-left:.5rem;}
+.clear-bar-right .burger { position:relative;top:120px;}
+.default-bar-wrap { padding:1rem;border-bottom:1px solid black;}
+.default-bar a#logo img { margin-left:1rem;height:3rem;}
+
+
+
+
+

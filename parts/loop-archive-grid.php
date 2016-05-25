@@ -13,14 +13,15 @@ $grid_columns = 4; ?>
 			
 			<div class="image-wrapper overlay-fade-in">
 				<?php the_post_thumbnail('square'); ?>
-			
-				<div class="image-overlay-content">
-					<h3><?php the_excerpt(); ?></h3>
-					<a href="<?php the_permalink() ?>" class="button large">read more</a>
-				</div>
+				
+				<a href="<?php the_permalink(); ?>" />
+					<div class="image-overlay-content">
+						<button class="readmore hollow round large button">read more</button>
+					</div>
+				</a>
 			</div>
 			<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-			<small><?php get_template_part( 'parts/content', 'byline' ); ?></small>
+			<small><?php get_template_part( 'parts/grid', 'byline' ); ?></small>
 		</div>
 
 <?php if( 0 === ( $wp_query->current_post + 1 )  % $grid_columns ||  ( $wp_query->current_post + 1 ) ===  $wp_query->post_count ): ?>

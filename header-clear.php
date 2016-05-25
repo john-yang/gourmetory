@@ -1,6 +1,7 @@
 <!doctype html>
 
   <html class="no-js"  <?php language_attributes(); ?>>
+
 	<head>
 		<meta charset="utf-8">
 		
@@ -32,4 +33,4 @@
 		
 	<body <?php body_class(); ?>>
 
-	 <?php get_template_part( 'parts/nav', 'default' ); ?>
+	 <?php get_template_part( 'parts/nav', 'clear' ); ?>

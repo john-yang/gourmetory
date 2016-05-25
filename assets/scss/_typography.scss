@@ -1,0 +1,25 @@
+
+/* Typography */
+h1,h2,h3 { font-weight:700;}
+h1 { letter-spacing:-.2rem;}
+h2 { letter-spacing:-.0925rem;}
+h3 { letter-spacing:-.0.625rem;}
+
+
+/* TYPOGRAPHY */
+.white-shadow { color:white; text-shadow:1px 1px 1px #111;}
+h1,h2,h3 { font-weight:700;}
+
+
+blockquote::before {
+	color:$primary-color;
+ 	opacity:0.1;
+	overflow:hidden;
+	float:left;
+	margin-right:1rem;
+  font-family: FontAwesome;
+  content: '\f10d'; /*quote left icon*/
+}
+
+
+blockquote { border-left:none;padding:5rem 10rem;}
