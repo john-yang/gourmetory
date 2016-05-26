@@ -5480,7 +5480,7 @@ to display none.
 
 /* FOOTER */
 footer.main {
-  height: 22rem;
+  height: 54rem;
   margin-top: 0 !important;
   padding-top: 4rem;
   background: black;
@@ -5506,6 +5506,9 @@ footer.main {
   footer.main .copyright a {
     padding: 0 .5rem;
     border-right: 1px solid #333; }
+  @media screen and (min-width: 40em) {
+    footer.main {
+      height: 27rem; } }
 
 .gradient-3 {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a5a5a5+0,000000+100&0.4+0,0+100 */
@@ -5816,6 +5819,24 @@ div.sticky-container {
   color: white;
   text-shadow: 1px 1px 1px #111; }
 
+.row-six-up blockquote {
+  padding: 0;
+  font-size: 1rem; }
+
+.row-six-up .box {
+  border: 1px solid #ccc;
+  padding: 1rem; }
+
+.row-four-up .box {
+  border: 1px solid #666;
+  padding: 2rem;
+  margin-bottom: 2rem; }
+
+.row-support .box {
+  border: 1px solid #aaa;
+  padding: 2rem;
+  margin-bottom: 2rem; }
+
 .pricing-table {
   border: solid 1px #DDDDDD; }
   .pricing-table li {
@@ -6048,6 +6069,12 @@ blockquote::before {
 blockquote {
   border-left: none;
   padding: 5rem 10rem; }
+
+p.large {
+  font-size: 2rem; }
+
+p.italic {
+  font-style: italic; }
 
 /*  HOME */
 #home-grid h2 {

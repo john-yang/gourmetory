@@ -2,8 +2,7 @@
 <div class="row cover align-middle text-center">
 
 	<div class="column large-8 large-center" style="margin:8rem auto;">
-		<h1>End-to-End Services</h1>
-		<p>DevSpark offers end-to-end services from product and business consulting, to design and development. We can partner with a client from the very beginning and maintain a product throughout its life. Or, we can help fill gaps in a client’s organization. We prefer to think of it this way: we’re on your team and you’re on ours. We’re most likely to make the best product decisions by working together.</p>
+		<h1>What Our Customers Are Saying</h1>
  
 	</div>
 	

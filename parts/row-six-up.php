@@ -1,10 +1,11 @@
 <div class="row-wrap">
 
-<div class="row cover align-middle text-center">
+<div class="row-six-up row cover align-middle text-center">
 
-	<div class="column large-center" style="margin:8rem auto;">
-		<h1>Technology</h1>
-		<p>DevSpark offers end-to-end services from product and business consulting, to design and development. We can partner with a client from the very beginning and maintain a product throughout its life. Or, we can help fill gaps in a client’s organization. We prefer to think of it this way: we’re on your team and you’re on ours. We’re most likely to make the best product decisions by working together.</p>
+	<div class="column large-8 large-center" style="margin:8rem auto;">
+		<h1>Don't Take Our Word For It</h1>
+		<p class="large italic">Listen To What Our Customers Are Saying</p>
+		
  
 	</div>
 	
@@ -13,24 +14,27 @@
 		<div class="row small-up-1 medium-up-2 large-up-3" data-equalizer data-equalize-by-row="true">
 
 			<div class="column">
-				<div class="box" style="border:1px solid black;padding:2rem;">
-					<h2>This is a title</h2>
-					<p>We believe that product strategists should understand deeply every challenge, hope, stakeholder, pain-point and business objective. Through thoughtful research we work with clients to evolve product concept and goals. Then we get into the nuts and bolts of business planning, road-mapping and portfolio rationalization.</p>
+				<div class="box" data-equalizer-watch>
+					<img src="<?php echo get_template_directory_uri(); ?>/r/faces/face-8.png">
+					<h4>Bar 42</h4>
+					<blockquote>Gourmetory's apps are very easy to use. I’m really happy with everything so far. Their products are making my business so much easier. <cite>Katherine Hawkins</cite></blockquote>
 				</div>
 			</div><!-- column -->
 			
 			<div class="column">
-				<div class="box" style="border:1px solid black;padding:2rem;">
-					<h2>This is a title</h2>
-					<p>We believe that product strategists should understand deeply every challenge, hope, stakeholder, pain-point and business objective. Through thoughtful research we work with clients to evolve product concept and goals. Then we get into the nuts and bolts of business planning, road-mapping and portfolio rationalization.</p>
+				<div class="box" data-equalizer-watch>
+					<img src="<?php echo get_template_directory_uri(); ?>/r/faces/face-12.png">
+					<h4>Serafina Authentic Italian Cuisine</h4>
+					<blockquote>Dependable, trustworthy and practical describe my experience with Gourmetory. They continue to outperform other services and marketers I've hired and fired in the past. They just get it.<cite>Christine Baker</cite></blockquote>
 				</div>	
 			</div><!-- column -->
 			
 			<div class="column">
 
-				<div class="box" style="border:1px solid black;padding:2rem;">
-					<h2>This is a title</h2>
-					<p>We believe that product strategists should understand deeply every challenge, hope, stakeholder, pain-point and business objective. Through thoughtful research we work with clients to evolve product concept and goals. Then we get into the nuts and bolts of business planning, road-mapping and portfolio rationalization.</p>
+				<div class="box" data-equalizer-watch>
+					<img src="<?php echo get_template_directory_uri(); ?>/r/faces/face-13.png">
+					<h4>Eagle Inn Restaurant</h4>
+					<blockquote>We believe that product strategists should understand deeply every challenge, hope, stakeholder, pain-point and business objective.<cite>Marissa Taen</cite></blockquote>
 				</div>
 
 
@@ -43,52 +47,44 @@
 		<div class="row small-up-1 medium-up-2 large-up-3" data-equalizer data-equalize-by-row="true" style="margin-top:4rem;">
 
 			<div class="column">
-				<div class="box" style="border:1px solid black;padding:2rem;">
-					<h2>This is a title</h2>
-					<p>We believe that product strategists should understand deeply every challenge, hope, stakeholder, pain-point and business objective. Through thoughtful research we work with clients to evolve product concept and goals. Then we get into the nuts and bolts of business planning, road-mapping and portfolio rationalization.</p>
+				<div class="box" data-equalizer-watch>
+					<img src="<?php echo get_template_directory_uri(); ?>/r/faces/face-27.png">
+					<h4>Bellatrino Neapolitan Pizzeria & Cucina</h4>
+					<blockquote>Updating my website was actually enjoyable. Your site is perfect for ‘tech-challenged’ people like me! Thank you for having such a great product.”<cite>Barbara Strauss</cite></blockquote>
 				</div>
 			</div><!-- column -->
 			
 			<div class="column">
-				<div class="box" style="border:1px solid black;padding:2rem;">
-					<h2>This is a title</h2>
-					<p>We believe that product strategists should understand deeply every challenge, hope, stakeholder, pain-point and business objective. Through thoughtful research we work with clients to evolve product concept and goals. Then we get into the nuts and bolts of business planning, road-mapping and portfolio rationalization.</p>
+				<div class="box" data-equalizer-watch>
+					<img src="<?php echo get_template_directory_uri(); ?>/r/faces/face-29.png">
+					<h4>Sweet Nectar Charcoal Grill & Spirits</h4>
+					<blockquote>I love that I can manage everything from one spot. Definitely want to take advantage of all aspects of the WebDiner platform. This is going to be a lifesaver!<cite>Erica Newman</cite></blockquote>
 				</div>	
 			</div><!-- column -->
 			
 			<div class="column">
 
-				<div class="box" style="border:1px solid black;padding:2rem;">
-					<h2>This is a title</h2>
-					<p>We believe that product strategists should understand deeply every challenge, hope, stakeholder, pain-point and business objective. Through thoughtful research we work with clients to evolve product concept and goals. Then we get into the nuts and bolts of business planning, road-mapping and portfolio rationalization.</p>
+				<div class="box" data-equalizer-watch>
+					<img src="<?php echo get_template_directory_uri(); ?>/r/faces/face-30.png">
+					<h4>Himmarshee Public House</h4>
+					<blockquote>We can directly correlate the increase in our sales to what WebDiner has done for us.<cite>Jan Jenner</cite></blockquote>
 				</div>
 
 
 			</div><!-- column -->
 		
 		</div><!-- row large-up-3 data-equalizer -->
-
-
-
-
-
-
-
-
-
+	
 
 	</div><!-- large10 -->
 
 
 
 	<div class="column large-center" style="margin:8rem auto;">
-		<h3>"We are happy to partner with DevSpark - a company that understands our customers' businesses and consistently delivers high quality software."</h3>
-		</h4>- Managing Director at Accenture</h4>
+		<h3>"Dependable, trustworthy and practical describe my experience with Gourmetory. They continue to outperform other services and marketers I've hired and fired in the past. They just get it."</h3>
+		</h4>Christine Baker, Serafina Authentic Italian Cuisine</h4>
 
 	</div>
-
-
-
 
 </div><!-- ROW -->
 </div><!-- row -wrap -->

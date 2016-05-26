@@ -4,46 +4,46 @@
 			<div class="row text-left">
 				<div class="columns">
 					<ul>
-						<h5>For Medical Practices</h5>
-						<li><a href="<?php home_url(); ?>/work-with-a-company-that-gets-it/">Responsive Web Design</a></li>
-						<li><a href="<?php home_url(); ?>/infographics-defined-in-60-seconds/">Top Online Position</a></li>
-						<li><a href="<?php home_url(); ?>/how-to-create-profitable-wordpress-themes-plugins-and-more/">Health Content Marketing</a></li>
-						<li><a href="<?php home_url(); ?>/cut-the-crap-and-write-better-now/">Social Media Marketing</a></li>
+						<h5>Restaurant Resources</h5>
+						<li><a href="<?php home_url(); ?>/responsive-web-design/">Writing for Entrepreneurs</a></li>
+						<li><a href="<?php home_url(); ?>/top-online-ranking/">Writing Your Way To The Top</a></li>
+						<li><a href="<?php home_url(); ?>/content-marketing/">Inbound Marketing Beginners</a></li>
+						<li><a href="<?php home_url(); ?>/social-media-marketing/">Facebook for Entrepreneurs</a></li>
 					</ul>
 				</div>			
 				<div class="columns">
 					<ul>
-						<h5>For Medical Businesses</h5>
-						<li><a href="<?php home_url(); ?>/wordpress-plugin-create/">Email Marketing</a></li>
-						<li><a href="<?php home_url(); ?>/ruthless/">Online Reputation Marketing</a></li>
-						<li><a href="<?php home_url(); ?>/convincing-copy/">Appointment Generation</a></li>
-						<li><a href="<?php home_url(); ?>/dont-let-technology/">Analytics &amp; Reporting</a></li>
+						<h5>Content Marketing</h5>
+						<li><a href="<?php home_url(); ?>/email-marketing/">Email Marketing Is Now</a></li>
+						<li><a href="<?php home_url(); ?>/online-reputation-marketing/">Consider Your Reputation</a></li>
+						<li><a href="<?php home_url(); ?>/appointment-generation/">Getting More Generation</a></li>
+						<li><a href="<?php home_url(); ?>/analytics-reporting/">Analytics &amp; Reporting for Content</a></li>
 					</ul>
 				</div>					
 				<div class="columns">
 					<ul>
-						<h5>For Health Businesses</h5>
-						<li><a href="<?php home_url(); ?>/support-copy/">Analytics &amp; Reporting</a></li>
-						<li><a href="<?php home_url(); ?>/dont-let-technology/">HIPAA Compliance</a></li>
-						<li><a href="<?php home_url(); ?>/agency-problem/">Web Application Development</a></li>
-						<li><a href="<?php home_url(); ?>/work-with-a-company/">Search Engine Optimization</a></li>
+						<h5>Search Analytics</h5>
+						<li><a href="<?php home_url(); ?>/analytics-reporting/">Analytics &amp; Reporting</a></li>
+						<li><a href="<?php home_url(); ?>/hipaa-compliance/">Privacy &amp; Security</a></li>
+						<li><a href="<?php home_url(); ?>/web-application-development/">Your Business &amp; Web Applications</a></li>
+						<li><a href="<?php home_url(); ?>/search-engine-optimization/">How Customers Search For You</a></li>
 					</ul>
 				</div>	
 				<div class="columns">
-					<ul>	<h5>For Health Practices</h5>
-						<li><a href="<?php home_url(); ?>/support-copy/">Analytics &amp; Reporting</a></li>
-						<li><a href="<?php home_url(); ?>/dont-let-technology/">HIPAA Compliance</a></li>
-						<li><a href="<?php home_url(); ?>/agency-problem/">Web Application Development</a></li>
-						<li><a href="<?php home_url(); ?>/work-with-a-company/">Search Engine Optimization</a></li>
+					<ul>	<h5>Culinary Guides</h5>
+						<li><a href="<?php home_url(); ?>/analytics-reporting/">Analytics &amp; Reporting</a></li>
+						<li><a href="<?php home_url(); ?>/hipaa-compliance/">Privacy &amp; Security</a></li>
+						<li><a href="<?php home_url(); ?>/web-application-development/">Business Application Development</a></li>
+						<li><a href="<?php home_url(); ?>/search-engine-optimization/">Learn Keyword Research</a></li>
 					</ul>
 				</div>
 				<div class="columns">
 					<ul>
-						<h5>Other Private Practices</h5>
-						<li><a href="<?php home_url(); ?>/work-with-a-company-that-gets-it/">Responsive Web Design</a></li>
-						<li><a href="<?php home_url(); ?>/infographics-defined-in-60-seconds/">Top Online Position</a></li>
-						<li><a href="<?php home_url(); ?>/how-to-create-profitable-wordpress-themes-plugins-and-more/">Health Content Marketing</a></li>
-						<li><a href="<?php home_url(); ?>/cut-the-crap-and-write-better-now/">Social Media Marketing</a></li>
+						<h5>Restaurant Ecommerce</h5>
+						<li><a href="<?php home_url(); ?>/responsive-web-design/">Responsive Web Design</a></li>
+						<li><a href="<?php home_url(); ?>/top-online-ranking/">How Important Is A Top Online Position</a></li>
+						<li><a href="<?php home_url(); ?>/content-marketing/">Beginning Content Marketing</a></li>
+						<li><a href="<?php home_url(); ?>/social-media-marketing/">Social Media Marketing</a></li>
 					</ul>
 				</div>
 			</div><!-- row -->
@@ -51,7 +51,7 @@
 
 
 	<div class="row column tagline">
-		<div>Gourmetory, call 1-866-444-6464, to talk to a representative.</div>
+		<div>Please call us at 1-800-343-4399 if you have any questions.</div>
 	</div><!-- row -->
 
 	<div id="copyright" class="row column copyright">
