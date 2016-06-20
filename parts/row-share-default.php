@@ -14,8 +14,6 @@
 		<div class="large-6 columns text-right" style="height:2rem;">
 			<a href="#"><i class="fa fa-facebook fa-4x"></i></a>
 			<a href="#"><i class="fa fa-twitter fa-4x"></i></a>
-			<a href="#"><i class="fa fa-google fa-4x"></i></a>
-			<a href="#"><i class="fa fa-linkedin fa-4x"></i></a>
 
 		</div>
 

@@ -29,7 +29,7 @@
 				</div>	
 			</div><!-- column -->
 			
-			<div class="column">
+			<div class="column show-for-large">
 
 				<div class="box" data-equalizer-watch>
 					<img src="<?php echo get_template_directory_uri(); ?>/r/faces/face-13.png">
@@ -62,7 +62,7 @@
 				</div>	
 			</div><!-- column -->
 			
-			<div class="column">
+			<div class="column show-for-large">
 
 				<div class="box" data-equalizer-watch>
 					<img src="<?php echo get_template_directory_uri(); ?>/r/faces/face-30.png">

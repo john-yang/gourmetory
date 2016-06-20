@@ -5727,7 +5727,9 @@ div.sticky-container {
 
 /* ROWS */
 .row.cover {
-  min-height: 36rem; }
+  min-height: 36rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
   @media screen and (min-width: 40em) {
     .row.cover {
       min-height: 40rem; } }
@@ -5819,18 +5821,34 @@ div.sticky-container {
   color: white;
   text-shadow: 1px 1px 1px #111; }
 
+.row-quatro-wrap a {
+  color: white;
+  text-shadow: 1px 1px 1px #111; }
+
+.row-quatro-wrap .show-for-small-only h2 {
+  font-size: 2.5rem; }
+
 .row-six-up blockquote {
   padding: 0;
   font-size: 1rem; }
 
 .row-six-up .box {
   border: 1px solid #ccc;
-  padding: 1rem; }
+  padding: 1rem;
+  margin: 1rem; }
+  @media screen and (min-width: 64em) {
+    .row-six-up .box {
+      margin: 0; } }
 
 .row-four-up .box {
   border: 1px solid #666;
   padding: 2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  margin: 1rem; }
+  @media screen and (min-width: 64em) {
+    .row-four-up .box {
+      margin: 0;
+      margin-bottom: 2rem; } }
 
 .row-support .box {
   border: 1px solid #aaa;
@@ -6040,7 +6058,13 @@ h1, h2, h3 {
   font-weight: 700; }
 
 h1 {
-  letter-spacing: -.2rem; }
+  letter-spacing: -0.0925rem; }
+  @media screen and (min-width: 40em) {
+    h1 {
+      letter-spacing: -.0125rem; } }
+  @media screen and (min-width: 64em) {
+    h1 {
+      letter-spacing: -.2rem; } }
 
 h2 {
   letter-spacing: -.0925rem; }

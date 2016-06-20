@@ -82,7 +82,7 @@
 				<div id="box-2" style="padding-right:.5rem;float:left;width:33.33%;">
 					<a href="<?php echo $link2; ?>">
 						<div class="box" id="box-2" style="height:19.5rem;background:url(<?php echo $image2; ?>);background-size:cover;">
-							<h2><?php echo $title2; ?></h2>
+							<h4><?php echo $title2; ?></h4>
 
 						</div>
 					</a><!-- box #2 -->
@@ -91,7 +91,7 @@
 				<div id="box-3-wrap" style="padding-right:.5rem;float:left;width:33.33%;">
 					<a href="<?php echo $link3; ?>">
 						<div class="box" id="box-3" style="height:19.5rem;background:url(<?php echo $image3; ?>);background-size:cover;">
-							<h2><?php echo $title3; ?></h2>
+							<h4><?php echo $title3; ?></h4>
 
 						</div>
 					</a><!-- box #3 -->
@@ -99,7 +99,7 @@
 
 				<a href="<?php echo $link4; ?>">
 					<div class="box" id="box-4" style="float:left;width:33.33%;height:19.5rem;background:url(<?php echo $image4; ?>);background-size:cover;">
-						<h2><?php echo $title4; ?></h2>
+						<h4><?php echo $title4; ?></h4>
 
 					</div>
 				</a><!-- box #4 -->

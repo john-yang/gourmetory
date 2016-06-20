@@ -1,5 +1,5 @@
 /* ROWS */
-.row.cover { min-height:36rem;
+.row.cover { min-height:36rem;padding-top:4rem;padding-bottom:4rem;
 
 		@include breakpoint(medium) { min-height:40rem;}
 		@include breakpoint(medium) { min-height:46rem;}
@@ -79,18 +79,24 @@
 		h2 { color:white;text-shadow:1px 1px 1px #111;}
 	}
 }
+.row-quatro-wrap { 
+	a { color:white;text-shadow:1px 1px 1px #111;}
+	.show-for-small-only h2 {font-size:2.5rem; }
 
+}
 
 .row-six-up { 
 
 	blockquote { padding:0;font-size:1rem;}
-	.box { border:1px solid #ccc;padding:1rem;}
+	.box { border:1px solid #ccc;padding:1rem;margin:1rem; @include breakpoint(large) { margin:0; }} 
 
 }
 
 .row-four-up {
 
-		.box { border:1px solid #666; padding:2rem;margin-bottom:2rem;}	
+		.box { border:1px solid #666; padding:2rem;margin-bottom:2rem;margin:1rem;
+				@include breakpoint(large) {margin:0;margin-bottom:2rem;} 
+			}	
 
 
 	}

@@ -1,7 +1,11 @@
 
 /* Typography */
 h1,h2,h3 { font-weight:700;}
-h1 { letter-spacing:-.2rem;}
+h1 { 
+		letter-spacing:-0.0925rem; 
+		@include breakpoint(medium) { letter-spacing:-.0125rem;} 
+		@include breakpoint(large) { letter-spacing:-.2rem;}
+	}
 h2 { letter-spacing:-.0925rem;}
 h3 { letter-spacing:-.0.625rem;}
 
